@@ -1,0 +1,139 @@
+.Select-bar{
+  color:rgb(0, 0, 0);
+  z-index: 1;
+  width: 160px; /* Set the width of the sidebar */
+  top: 0; /* Stay at the top */
+  left: 0;
+  margin-left: 2%;
+  margin-right: 4%;
+  width: 25%;
+    position: fixed;
+    top: 20%; /* ปรับตำแหน่งตามที่ต้องการให้ขึ้นลง */
+    /* คุณอาจต้องปรับค่า top หรือ bottom เพื่อให้ตรงตามตำแหน่งที่ต้องการ */
+  
+}
+.font{
+  margin-left: 15%;
+  display: flex;
+  flex-wrap: wrap; /* ทำให้ elements ภายใน wrapping เมื่อเต็มแถว */
+}
+.hr-long{
+  color: black;
+  height: 1%;
+  border-width: 3px;
+  width: 160px;
+}  
+.checkbox-tool{
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 5px;
+}
+input.largerCheckbox { 
+  width: 15px;
+  height: 15px;
+  background-color: blue;
+}
+
+.text-head-group{
+  text-align: left;
+  font-size:30px;
+}
+.Select-bar {
+  width: 13%;
+}
+.hat{
+  text-align: center;
+  position: fixed;
+  top: 10%; 
+
+}
+.card{
+  margin-right: 1%;
+  width: 23%;
+  float: left;
+  margin-top:1%;
+}
+.block{
+  display: block;
+  display: inline-block;
+}
+#clear-button{
+  color: rgb(0, 0, 0);
+  background-color: white;
+  border: 1;
+  border-color: black;
+}
+#clear-button:hover{
+  background-color: rgb(54, 0, 116);
+  border-color: aqua;
+  transition: background-color 1s;
+  color: aqua;
+}
+#clear-button-All{
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border: 1;
+  border-color: black;
+}
+#clear-button-All:hover{
+  background-color: rgb(0, 0, 0);
+  border-color: rgb(255, 38, 0);
+  transition: background-color 1s;
+  color: rgb(255, 0, 0);
+}
+.btn-primary:hover{
+  background-color: black;
+  color: rgb(255, 255, 255);
+  border: 0;
+  transition: scale 0.4s;
+  scale:1.2;
+}
+.btn-primary{
+  background-color: rgb(255, 255, 255);
+  border: 1;
+  border-color: black;
+  color: black;
+  transition: scale 0.5s;
+  scale:1;
+}
+.top{
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: 30%;
+  padding-right: 5%;
+  padding-left: 5%;
+  width: 100%; /* กำหนดความกว้าง */
+  height: 80px; /* กำหนดความสูง */
+  background-color: #000000;
+  border: none; /* ลบขอบ */
+  border-radius: 100%; /* เปลี่ยนเป็นวงกลม */
+  cursor: pointer;
+}
+.top:hover{
+  color: #000000;
+  background-color: #ffffff;
+  transition: background-color 0.3s;
+}
+.card:hover{
+  scale:1.115;
+  transition: scale 0.5s;
+  z-index: 1;
+}
+.card{
+  scale:1;
+  transition: scale 0.3s;
+}
+.selllow{
+  color: red;
+}
+.nottext{
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 50px;
+}
+.card2{
+  margin-right: 1%;
+  width: 23.8%;
+  float: left;
+  margin-top:1%;
+}

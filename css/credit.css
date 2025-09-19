@@ -1,0 +1,28 @@
+.card{
+    text-align: center;
+}
+.xyz{
+    margin-left: 4%;
+    display: flex;
+    flex-wrap: wrap; /* ทำให้ elements ภายใน wrapping เมื่อเต็มแถว */
+}
+.card{
+    margin-right: 1%;
+    width: 23%;
+    float: left;
+    margin-top:1%;
+
+  }  
+  .btn{
+    background-color: black;
+    border: 0;
+  }
+  .btn:hover{
+    background-color: rgb(59, 182, 234);
+  }
+  .Brand{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+  }
+  
